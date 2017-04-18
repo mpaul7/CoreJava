@@ -1,0 +1,45 @@
+package JavaBasic1;
+
+/*
+ * java.lang
+ * =========
+ * It is   package part of core API
+ * 
+ * Object class
+ * ============
+ * It is implicitly added by compiler. 
+ * class Object { } 
+ * It is super class of all classes.
+ * It is super class or indirect super class. 
+ * Methods in Object class are available to all the classes. 
+ * 
+ * 
+ * class a{} -> here class a by default extends Object class.
+ * class b extends a{}
+ * 
+ * object O1 = new b();
+ * Object can refer to any object. All premitive data types are not objects in java. 
+ * 
+ * Object O1 = 10; -> error. 
+ * 
+
+ * 
+ * int i = 10;
+ * Integer i1 = new Integer (i);, here i1 is object.
+ * 
+ * Wrapper class is used to convert primitive data type into object. 
+ *
+ * system.out.println
+ * =================
+ * System.out.println("a");
+ * 
+ * Here, println is an overloaded method. It can accept int, object, and String.
+ * System ->  class
+ * out -> static variable
+ * println -> method of out. 
+ * 
+ * printstream is to print something to console, and it is in java.io package. 
+ */
+public class JavaBasic2 {
+
+}

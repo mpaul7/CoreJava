@@ -1,0 +1,93 @@
+package JavaBasic1;
+/*
+ * P = C
+ * class a {}
+ * class b extends a{}
+ * a aO1 = new b();
+ * a aO1 = new a();
+ * b bO1 = new b();
+ * aO1 = bO2 - > P = C
+ * 
+ * 
+ * C = P  is not possible
+ * b bO1 = new a(); -> error
+ * 
+ * casting
+ * ========
+ * casting is converting one data type into another. 
+ * int i = (int) 10.5 -> int will contain 10
+ * 
+ * c = (c)p
+ * a O1 = new a();
+ * b o2 = new b();
+ * O2 = (b)O1
+ * b O1 = (b)new a();
+ * 
+ * Casting is legal at compile time
+ * error at run time
+ *  
+ *  This is possible if O1 must contain the object of b only or any of the sub class, i.e.
+ *  a O1 = new b();
+ *  b O2 = new b();
+ *  O2 = (b) O1. 
+ *  
+ *Note: now is has reference of class b, earlier u it was object of class b but refernce 
+ *was of class a. 
+ *this is some sort of pointer manipulation. 
+ *
+ *Note: casting is not possible in siblings
+ *  b <-- a --> c
+ *  O1 = (b)O2
+ *  
+ *  C = P
+ *  
+ *  Here b and c do not have any relation, they are just inheriting class a
+ *  
+ *  class a{}
+ *  class b extends a {}
+ *  
+ *  a O1 = new a();
+ *  b O2 = new b();
+ *    O1 = (a) O2;
+ *    (a) -> is optional. 
+ */
+// ==================================================
+
+class a1{
+	a1 m1(){
+		return new b();
+		}
+	
+	class b extends a1 {
+	void m2(){ }
+	//void m1(){ }
+	}
+}
+public class ReferenceManipulation {
+	public static void main(String args[]){
+		a1 aO1 = new a1();
+		a1 aO2 = aO1.m1();
+		//b aO2 = aO1.m1();
+		/*
+		 * aO1.m1() -> returning an object of class b but reference is of class a. 
+		 * So C = P, which is wrong. 
+		 * 
+		 */
+		//b aO2 = (b) aO1.m1();
+		/*
+		 * When reference is of super class then method can  return the object of any of its 
+		 * subclass. 
+		 * 
+		 * By casting, only the object of class b is returned. 
+		 */
+		
+		/*
+		 * When method is accepting then we can not pass PDT. 
+		 * 
+		 *  void m1(Object O1)
+		 *  
+		 *  integer can not be passed so wrapper classes are used to convert PDT to object.   
+		 */
+		}
+
+}
