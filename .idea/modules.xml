@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstract/Abstract.iml" filepath="$PROJECT_DIR$/Abstract/Abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AccessModifiers/AccessModifiers.iml" filepath="$PROJECT_DIR$/AccessModifiers/AccessModifiers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Constructor/Constructor.iml" filepath="$PROJECT_DIR$/Constructor/Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreJavaTest/CoreJavaTest.iml" filepath="$PROJECT_DIR$/CoreJavaTest/CoreJavaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerRank/HackerRank.iml" filepath="$PROJECT_DIR$/HackerRank/HackerRank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorldProject1/HelloWorldProject1.iml" filepath="$PROJECT_DIR$/HelloWorldProject1/HelloWorldProject1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Operators/Java Operators.iml" filepath="$PROJECT_DIR$/Java Operators/Java Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/JavaBasic.iml" filepath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOP/JavaOOP.iml" filepath="$PROJECT_DIR$/JavaOOP/JavaOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Overloading/Overloading.iml" filepath="$PROJECT_DIR$/Overloading/Overloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Overriding/Overriding.iml" filepath="$PROJECT_DIR$/Overriding/Overriding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Static/Static.iml" filepath="$PROJECT_DIR$/Static/Static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Super/Super.iml" filepath="$PROJECT_DIR$/Super/Super.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/This/This.iml" filepath="$PROJECT_DIR$/This/This.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/inheritance/inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/projects.iml" filepath="$PROJECT_DIR$/projects/projects.iml" />
+    </modules>
+  </component>
+</project>
